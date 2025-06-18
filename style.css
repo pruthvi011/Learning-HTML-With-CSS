@@ -1,0 +1,28 @@
+ /* Upper Case  */
+.text{
+    text-transform: uppercase;
+    color: rgb(237, 7, 7);
+    word-spacing: 50px;
+    letter-spacing: 10px;
+}
+
+/* lower Case */
+.text2{
+    text-transform: lowercase;
+    color: aqua;
+}
+
+/* Capitalize */
+.paragraph{
+    text-transform: capitalize;
+}
+
+.lineHeight{
+    line-height: 30px;
+}
+
+.greet{
+    color: aqua;
+    font-size: 60px;
+    text-shadow: 20px 8px 8px rgb(192, 15, 15);
+}

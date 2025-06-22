@@ -1,0 +1,25 @@
+*{
+    font-size: 20px;
+}
+
+
+.heading1{
+    color: blue;
+    font-size: 50px;
+}
+
+#heading2{
+    color: brown;
+}
+
+#heading{
+    color: rgb(255, 0, 187);
+}
+
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.font{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

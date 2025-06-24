@@ -1,0 +1,23 @@
+.container{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.items{
+    background-color: rgb(203, 41, 41);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    /* text-align: center; */
+    color: white;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

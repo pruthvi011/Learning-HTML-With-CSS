@@ -1,0 +1,66 @@
+.hall{
+    height: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: antiquewhite;
+
+    position: relative;
+
+}
+
+#Sofa{
+    width: 600px;
+    height: 200px;
+    margin: 20px;
+    background-color: aqua;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+
+    position: absolute;
+    left: 28%;
+    bottom: 20px;
+    
+}
+
+#TV{
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    background-color: aqua;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+
+    position: absolute;
+    left: 39%;
+    top: 20px
+}
+
+#Tea-Table{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: aqua;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+
+    position: absolute;
+    left: 44%;
+    top: 40%;
+}
+
+#Fridge{
+    width: 70px;
+    height: 300px;
+    margin: 50px;
+    background-color: aqua;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}

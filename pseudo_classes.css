@@ -1,0 +1,67 @@
+.hover_effect:hover{
+    color: red;
+    background-color: bisque;
+}
+
+.hover_effect{
+    padding: 0px 20px ;
+    display: inline-block;
+    color: bisque;
+    background-color: red;
+    cursor: pointer;
+}
+
+
+button{
+    padding: 10px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+button:active{
+    padding: 10px;
+    color: white;
+    background-color: lightgreen;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+a:visited{
+    color: yellow;
+}
+
+input:focus{
+    background-color: blanchedalmond;
+}
+
+ul{
+    width: 200px;
+    list-style-type: none;
+    
+}
+
+li{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+li:nth-child(odd){
+    background-color: pink;
+}
+
+li:nth-child(even){
+    background-color: aquamarine,;
+}
+
+/* Attribute Selector */
+
+input[placeholder]{
+    color: white;
+    background-color: blueviolet;
+}

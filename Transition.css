@@ -36,3 +36,12 @@
 
 /* Rotate */
 
+.box4:hover{
+    transform: rotate(90deg);
+}
+.box5:hover{
+    transform: rotate(360deg);
+}
+.box6:hover{
+    transform: rotate(180deg);
+}

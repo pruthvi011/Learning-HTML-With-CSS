@@ -1,0 +1,51 @@
+#text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 4px;
+    font-size: 60px;
+    font-weight: 700;
+    position: relative;
+}
+
+#text>b{
+    height: 100px;
+    box-shadow: 5px 20px 8px gray;
+    color: azure;
+    background: red;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotateX(85deg);
+    animation: getup;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#text>b:nth-child(2){
+    animation-delay: 250ms;
+}
+#text>b:nth-child(3){
+    animation-delay: 500ms;
+}
+#text>b:nth-child(4){
+    animation-delay: 750ms;
+}
+#text>b:nth-child(5){
+    animation-delay: 1000ms;
+}
+#text>b:nth-child(6){
+    animation-delay: 1250ms;
+}
+#text>b:nth-child(7){
+    animation-delay: 1500ms;
+}
+
+@keyframes getup{
+   10% , 50%{
+    transform: rotateX(0deg);
+   }
+   0% , 60%,100%{
+  transform: rotateX(-90deg);
+   }
+}
